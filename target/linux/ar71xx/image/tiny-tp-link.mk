@@ -119,7 +119,7 @@ endef
 TARGET_DEVICES += tl-mr3420-v2
 
 define Device/tl-mr3420-v3
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-MR3420 v3
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport kmod-leds-tl-mr3420-v3
   BOARDNAME := TL-MR3420-v3
